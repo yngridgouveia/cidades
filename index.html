@@ -9,8 +9,7 @@
     <title>cidades-londres</title>
     <link rel="shortcut icon" href="iconec.png" type="image/x-icon">
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         #cabecario {
             height: 200px;
@@ -24,7 +23,6 @@
         }
 
         #conteudo-principal {
-            height: 604px;
             background-color: #F0E0E0;
         }
 
@@ -43,10 +41,26 @@
         }
 
         .item-menu {
-            font-family: 'poppins';
+            font-family: 'Poppins';
             font-weight: 600;
             font-size: 16px;
             color: #AA0000;
+        }
+
+        .subtitulo {
+            font-size: 40px;
+            color: #AA0000;
+            font-family: 'Poppins';
+            font-weight: 600;
+        }
+        .texto-comum{
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open sans';
+            text-align: justify;
+        }
+        .texto-colunas{
+            column-count: 2;
         }
     </style>
 </head>
@@ -60,7 +74,40 @@
         <a href="paris.html" class="item-menu">PARIS</a> -
         <a href="tokyo.html" class="item-menu">TOKYO</a>
     </nav>
-    <main id="conteudo-principal"></main>
+    <main id="conteudo-principal">
+
+        <h2 class="subtitulo">LONDRES</h2>
+        <video autoplay width="600" controls>
+            <source src="video/video-londres.mp4" type="video/mp4">
+        </video>
+        
+        <p class="texto-comum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus at dolor et congue. Donec elementum enim
+            eget odio imperdiet facilisis. Nulla a eros mattis, tristique lorem ut, consequat neque. Sed cursus
+            efficitur aliquam. Morbi porttitor mauris a aliquet scelerisque. Quisque at finibus dui. Mauris ut ipsum
+            eros. Duis dignissim sem in cursus venenatis.
+        </p>
+        <p class="texto-comum">
+            Nam vel efficitur massa, quis rhoncus lectus. Sed placerat nunc sit amet nunc placerat rutrum. Pellentesque
+            efficitur, neque id feugiat fermentum, ex nisi facilisis dui, non placerat purus tortor in massa. Nam
+            commodo sodales purus sed varius. Donec eget nunc commodo, congue eros ac, mattis eros. Suspendisse cursus
+            facilisis augue, non tristique nisi accumsan eget. Curabitur tincidunt faucibus ornare. Aenean varius,
+            ligula eget lobortis semper, ipsum quam cursus mauris, in sodales est neque id metus. Maecenas imperdiet,
+            dui eu tincidunt aliquam, neque nisi placerat dolor, non viverra risus massa eu sapien. Fusce varius mattis
+            augue sit amet blandit. Sed ac magna felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Cras efficitur nunc lectus, ut auctor lectus pellentesque et. Nunc nisl nisl, placerat ut faucibus nec,
+            rutrum vel quam. Integer accumsan dui sit amet orci porttitor maximus tincidunt ac justo. Phasellus sit amet
+            turpis eget ante fringilla sagittis.
+        </p>
+        <p class="texto-comum texto-colunas">
+            Suspendisse potenti. Duis sed euismod ligula. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia curae; Quisque rutrum eros id risus luctus, in tempus enim blandit. Nullam ut
+            semper neque. Vivamus risus erat, posuere in rutrum in, tempor eget massa. Vestibulum ut risus at dui
+            efficitur ullamcorper. Vivamus nec felis facilisis, porta nulla nec, ultrices neque. Sed eu urna non mi
+            faucibus fermentum. Ut efficitur pellentesque consectetur.
+        </p>
+        </h2>
+    </main>
     <footer id="rodape"></footer>
 </body>
 
