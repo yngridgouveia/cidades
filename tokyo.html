@@ -9,18 +9,119 @@
     <link rel="shortcut icon" href="iconec.png" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        #cabecario {
+            height: 200px;
+            background-color: #f5bcbc;
+        }
+
+        #menu-de-navegacao {
+            height: 70px;
+            background-color: #b09696;
+            text-align: center;
+        }
+
+        #conteudo-principal {
+            background-color: #f0e0e0;
+        }
+
+        #rodape {
+            height: 150px;
+            background-color: #503838;
+        }
+
+        #titulo {
+            font-size: 74px;
+            color: #4f1717;
+            font-family: 'poppins';
+            sans-serif;
+            font-weight: 500;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .item-menu {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 16px;
+            color: #aa0000;
+        }
+
+        .subtitolo {
+            font-size: 14px;
+            color: #aa0000;
+            font-weight: 600;
+            font-family: 'Poppins';
+        }
+
+        .texto-comum {
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Poppins';
+            text-align: justify;
+        }
+
+        .texto-colunas {
+            column-count: 2;
+        }
+
+        .creditos {
+            font-family: 'Poppins';
+            font-size: 12px;
+            text-align: center;
+            color: beige;
+        }
     </style>
 </head>
-    <body>
-        <header id="cabecario">
-            <h1 id="titulo">TOKYO</h1>
-        </header>
+
+<body>
+    <header id="cabecario">
+        <h1 id="titulo">TOKYO</h1>
+    </header>
     <nav id="menu-de-navegacao">
         <a href="index.html">voltar</a>
     </nav>
-    <main></main>
-    </body>
-    <html>
+    <main id="conteudo-principal">
 
-    </html>
-            
+        <h2 class="subtitulo">TOKYO</h2>
+        <video autoplay width="600" control>
+            <source src="video/video-tokyo.mp4" type="video/mp4">
+        </video>
+
+        <p class="texto-comum">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis sapien libero, quis molestie
+            ligula sodales sit amet. Praesent suscipit tortor sed quam maximus placerat. Cras ante enim, luctus a
+            mauris sit amet, placerat posuere urna. Sed vehicula eros erat, eu condimentum arcu imperdiet eu. Donec
+            scelerisque
+            viverra sapien quis volutpat. Aenean tincidunt eget ipsum convallis maximus. Nullam justo orci,
+            ullamcorper vel urna sed, porta aliquam arcu.
+        </p>
+        <p class="texto-comum">
+            Praesent ante lectus, vulputate eget dolor sed, eleifend elementum quam. Nulla pharetra libero eu
+            sodales tempus. In pulvinar vestibulum orci, molestie laoreet erat sagittis non. Sed vestibulum diam
+            malesuada est pulvinar finibus. Sed a est justo. Fusce diam justo, rutrum sed quam vitae, fermentum
+            malesuada massa. Nulla ac suscipit arcu. Nam in neque sit amet dui facilisis aliquet in et ex. Sed ac
+            aliquet est, nec mollis tellus. Duis euismod odio at consequat ullamcorper. Integer vel dolor eu nunc
+            eleifend ultricies. Vivamus fermentum tellus ut fermentum ultrices.
+        </p>
+        <p class="texto-comum">
+            Nulla magna felis, semper eget metus eu, mollis sodales urna. Aenean mattis nisi quis ante tristique
+            molestie. Nullam facilisis elementum lectus sed convallis. Ut posuere hendrerit purus. Sed porta ipsum
+            et mauris rutrum placerat at sed massa. Sed mi ante, viverra sed nisi et, efficitur dictum dolor. Ut
+            suscipit feugiat est, nec facilisis metus consequat in. Vivamus accumsan tortor elementum, lacinia nunc
+            sit amet, hendrerit est. Sed sed mi dictum, iaculis libero in, blandit dui. Nullam eu auctor sem, ut
+            tempor tellus. Praesent volutpat urna non tellus condimentum, quis viverra lorem sagittis. Nam
+            tincidunt, massa at aliquam maximus, turpis nisi ullamcorper lorem, eget posuere urna metus sed augue.
+            Praesent eleifend elit non felis sollicitudin bibendum. Mauris eget efficitur augue.
+        </p>
+
+        <img width="600" src="imagens/tokyoimg.jpg" alt="foto de tokyo">
+    </main>
+    <footer id="rodape">
+        <p class="creditos">
+            Desenvovido por Yngrid Gouveia. &reg; Todos os direitos reservados. 2022.
+        </p>
+    </footer>
+</body>
+
+</html>
